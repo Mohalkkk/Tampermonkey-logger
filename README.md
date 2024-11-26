@@ -2,6 +2,21 @@
 
 A tool that exploits tampermonkey to log userdata
 
+## Features
+It logs the following
+- Local Storage
+- Session Storage
+- Cookies
+- IndexedDB
+- Cache Storage
+- Storage Quota
+- Geolocation
+- Performance
+- Clipboard
+- Media Devices
+- Page Info
+- Browser Info
+- 
 ## Installation
 - Install required libraries
 - Add your webhook into app.js
