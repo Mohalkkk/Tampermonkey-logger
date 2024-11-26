@@ -16,7 +16,7 @@ It logs the following
 - Media Devices
 - Page Info
 - Browser Info
-- 
+  
 ## Installation
 - Install required libraries
 - Add your webhook into app.js
