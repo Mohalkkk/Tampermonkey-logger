@@ -22,6 +22,7 @@ It logs the following
 - Add your webhook into app.js
 - Host the application somewhere
 - Change urls in logger.js
+- OR you can directly put your webhook into the logger.js
 
 ## Usage
 - Front the logger code as something else
