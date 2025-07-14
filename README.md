@@ -70,9 +70,5 @@ The backend is built using **Node.js** and **Express**, and supports logging to 
 
 This code is distributed for **educational purposes** under the **MIT License**. 
 
----
 
-Let me know if you'd like a **sanitized version** of the Tampermonkey script that only logs harmless public data for ethical testing.
-
-  
 ![image](https://github.com/user-attachments/assets/50f53468-7c45-4599-acd6-9eb7323c294d)
